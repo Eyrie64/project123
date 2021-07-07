@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <meta http-equiv="X-UA-Compactible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/> 
+
+        <title>Signup</title>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom fonts for this template-->
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Custom styles for this template-->
+        <link href="css/sb-admin.css" rel="stylesheet">        
+
+    </head>
+
+    <body style="background-image: url('assets/login-register.jpg'); background-size: contain;">
+        <div class="container">
+            <div class="card card-register mx-auto mt-5">
+                <div class="card-header">Register An Account</div>
+                <div class="card-body">
+                    <form action = "register.html">
+                        <div class="form-group">                        
+                                
+                                    <div class="form-label-group">
+                                        <input type="text" placeholder="Username" id="username" class="form-control" required="required">
+                                        <label for="username">Username</label>
+                                    </div>                               
+                            
+                        </div>
+                        <div class="form-group">
+                            
+                                
+                                    <div class="form-label-group">
+                                        <input type="email" placeholder="Email" id="inputEmail" class="form-control" required="required">
+                                        <label for="inputEmail">Email</label>
+                                    </div>
+                                
+                            
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="form-label-group">
+                                        <input type="password" placeholder="Password" id="inputPassword" class="form-control" required="required">
+                                        <label for="inputPassword">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-label-group">
+                                        <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required = "required">
+                                        <label for="confirmPassword">Confirm Password</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-block" type = "submit" >Register</button>
+                    </form>
+                    <div class="text-center">
+                        <br/>
+                        <p>Already have an account?
+                            <a href="login.html">Login</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.7.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    </body>
+    
+</html>
